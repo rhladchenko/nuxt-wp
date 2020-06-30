@@ -22,6 +22,15 @@
                     </li>
                 </ul>
             </li>
+            <li>
+                <nuxt-link to="/users">Users</nuxt-link>
+            </li>
         </ul>
     </div>
 </template>
+
+<style lang="scss">
+a {
+    color: $blue !important;
+}
+</style>

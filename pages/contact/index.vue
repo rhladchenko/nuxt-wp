@@ -1,5 +1,5 @@
 <template>
-    <div class="contact">
+    <div class="contact title">
         Contact
     </div>
 </template>
@@ -18,3 +18,17 @@ export default {
     }
 }
 </script>
+
+<style lang="scss">
+    .container {
+        .title {
+            font-size: 36px;
+            color: $red;
+        }
+
+        .subtitle {
+            display: block;
+            font-size: 18px;
+        }
+    }
+</style>
